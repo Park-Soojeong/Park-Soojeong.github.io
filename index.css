@@ -1,0 +1,51 @@
+.js-clock{
+    text-align: center;
+}
+
+.w{
+    text-align: right;
+}
+
+button{
+    cursor: pointer;
+    background: inherit; 
+    border:none; 
+    box-shadow:none; 
+    border-radius:0; 
+    padding:0; 
+    overflow:visible;
+    color:burlywood;
+}
+
+body{
+    color: #406b59;
+}
+
+li{
+    list-style: none;
+}
+
+.js-weather{
+    background-color: antiquewhite;
+}
+.clicked{
+    color: #7f8c8d;
+}
+
+.form,
+.greetings{
+    display: none;
+}
+
+.showing{
+    display: block;
+}
+
+.bgImage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
